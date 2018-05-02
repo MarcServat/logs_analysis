@@ -43,7 +43,7 @@ id      |   integer |
 
 Column  |   Type    |
 --------|-----------
-autho   |   integer |
+author  |   integer |
 title   |   text    |
 slug    |   text    |
 lead    |   text    |
