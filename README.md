@@ -34,7 +34,11 @@ Column  |   Type    |
 name    |   text    |
 bio     |   text    |
 id      |   integer |
+
+
 `TABLE "articles" CONSTRAINT "articles_author_fkey" FOREIGN KEY (author) REFERENCES authors(id)`
+
+
 ### Articles
 
 Column  |   Type    |
@@ -46,4 +50,6 @@ lead    |   text    |
 body    |   text    |
 time    |   timestamp with time zone    |
 id      |   integer |
+
+
 `articles_author_fkey" FOREIGN KEY (author) REFERENCES authors(id)`
